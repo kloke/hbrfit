@@ -1,0 +1,12 @@
+Package: hbrfit
+Type: Package
+Title: High breakdown rank-based (HBR) estimation for linear models.
+Version: 0.02
+Date: 2014-09-28
+Author: Jeff Terpstra, Joe McKean, John Kloke
+Maintainer: John Kloke <kloke@biostat.wisc.edu>
+Description: HBR estimation, inference, and diagnostics for linear models.
+License: GPL (>=2)
+LazyLoad: yes
+LazyData: yes
+Depends: Rfit, MASS, robustbase
