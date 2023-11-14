@@ -1,7 +1,7 @@
 citHeader("To cite hbrfit in publications, please use:")
 
-citEntry(entry = "Article",
-  author = personList(as.person("John D. Kloke"), as.person("M. Mushfiqur Rashid"),as.person("Joseph W. McKean")),
+bibentry(bibtype = "Article",
+  author = personList(as.person("Jeff T. Terpstra"), as.person("Joseph W. McKean")),
   title = "Rank-Based Analysis of Linear Models Using R,",
   journal = "Journal of Statistical Software",
   year = "2005",
@@ -16,5 +16,18 @@ citEntry(entry = "Article",
 )
 )
 
+bibentry(bibtype = "Book",
+  author = c(person(c("John"), "Kloke"), person(c("Joseph", "W."), "McKean
+")),
+  title = "Nonparametric Statistical Methods Using R",
+  year = "2014",
+  publisher="Chapman-Hall",
+  address="Boca Raton, FL",
+  textVersion = 
+  paste("Kloke, J. and McKean, J.W. (2014),",
+        "Nonparametric Statistical Methods Using R", 
+        "Boca Raton, FL: Chapman-Hall."
+       )
+)
 
 

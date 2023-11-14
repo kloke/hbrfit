@@ -3,5 +3,24 @@ exportPattern("^[[:alpha:]]+")
 import(
   MASS,
   robustbase,
-  Rfit
+  Rfit,
+  quantreg
 )
+
+
+importFrom("stats","rstudent","vcov")
+importFrom("graphics", "abline", "hist", "par")
+importFrom("stats", "IQR", "fitted.values", "lm", "lsfit", "mad",
+           "mahalanobis", "median", "model.matrix", "model.response",
+           "pf", "printCoefmat", "pt", "qchisq", "qqline", "qqnorm",
+           "quantile", "residuals", "var")
+
+
+S3method(summary,hbrfit) 
+S3method(print,summary.hbrfit) 
+S3method(rstudent,hbrfit)
+S3method(vcov,hbrfit)
+
+
+
+

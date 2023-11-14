@@ -1,6 +1,5 @@
 \name{hbrfit-package}
 \alias{hbrfit-package}
-\alias{hbrfit}
 \docType{package}
 \title{High Breakdown Rank-based (HBR) fitting and inference for linear regression models}
 \description{
@@ -16,14 +15,13 @@ Terpstra and McKean (2005) under GPL.
 \tabular{ll}{
 Package: \tab hbrfit\cr
 Type: \tab Package\cr
-Version: \tab 0.01\cr
-Date: \tab 2013-10-30\cr
-License: \tab GPL\cr
+Version: \tab 0.2.6\cr
+Date: \tab 2023-11-14\cr
+License: \tab GPL (>= 2)\cr
 }
 }
 \author{
 Jeff Terpstra, Joe McKean, John Kloke 
-Maintainer: John Kloke \email{kloke@biostat.wisc.edu}
 }
 \references{
 Chang, W. McKean, J.W., Naranjo, J.D., and Sheather, S.J. (1999),

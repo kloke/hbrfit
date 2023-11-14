@@ -49,6 +49,6 @@ function (formula, data, subset, symmetric = FALSE,...)
         resid, weights = wts, y = y.o, x = x.o, tauhat = tauhat, 
         taushat = taushat, betahat = bhat, qrx1 = qrx1)
     ans$call <- call
-    class(ans) <- c("hbrfit", "rfit")
+    class(ans) <- c("hbrfit","Rfit")
     ans
 }

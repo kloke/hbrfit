@@ -1,9 +1,12 @@
-fitdiag <- function(x,y,est=c("WIL","HBR"),delta=0.80,param=2,conf=0.95) {
+fitdiag <- function(x,y,est=c("WIL","HBR"),...) {
+
+  centerx <- function(x) scale(x,scale=FALSE)
+
   x=as.matrix(centerx(x))
   n=dim(x)[1]
   p=dim(x)[2]
   # Wilcoxon estimate
-  tempw=rfit(y ~ x)
+  tempw=rfit(y ~ x,...)
   residw=tempw$residuals
   vcw=vcov(tempw)
   temphbr=NULL

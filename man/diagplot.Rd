@@ -24,8 +24,7 @@ Terpstra, J. and McKean, J.W. (2005), Rank-based analyses of linear models using
 \emph{Journal of Statistical Software}, 14(7).
 }
 \author{
-Jeff Terpstra, Joe McKean,
-John Kloke \email{kloke@biostat.wisc.edu}
+Jeff Terpstra, Joe McKean, John Kloke 
 }
 
 \seealso{\code{\link{hbrfit}}}
